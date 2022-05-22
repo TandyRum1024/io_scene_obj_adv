@@ -7,6 +7,12 @@
 ![demo 1](bonkers/demo1.png)
 ![demo 2](bonkers/demo2.gif)
 ------
+
+How to use???
+===
+You can place the files in the blender's addon folder (For example, under the folder `C:\Program Files\Blender Foundation\Blender 2.93\2.93\scripts\addons\io_scene_obj_adv`) and hope your blender will recognize the addon & enable it using the addon menu. Then you can use `Export OBJ (advanced)` on the export menu to export the (augmented?) .obj file.
+
+This is basically a modification of the existing .obj exporting script, so using it would be almost as exactly the same as the blender's .obj exporter.<br>
 The vertex colour will only work with exporting (as that was the only function I needed back in time), And the colour information would be stored after the vertex position values like the following:
 ```
 (the usual, vertex notation in .obj file)
